@@ -23,17 +23,17 @@ msgstr "概述"
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:10
 msgid "Use this tutorial to install MongoDB on OS X systems."
-msgstr ""
+msgstr "使用本指南在OS X系统上安装MongoDB"
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:12
 msgid "Platform Support"
-msgstr "运行平台"
+msgstr "支持平台"
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:14
 msgid ""
 "Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on "
 "Intel x86-64 and later."
-msgstr ""
+msgstr "从3.0版本开始，MongoDB在Intel x89-64上只支持OS X 10.7（Lion）及之后的版本。"
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:17
 msgid ""
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:22
 msgid "Install MongoDB"
-msgstr "安装MongoDB。"
+msgstr "安装MongoDB"
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:24
 msgid ""
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:40
 msgid "Install MongoDB Manually"
-msgstr "手动安装MongoDB。"
+msgstr "手动安装MongoDB"
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:42
 msgid ""
@@ -85,4 +85,4 @@ msgstr ""
 
 #: ../source/tutorial/install-mongodb-on-os-x.txt:48
 msgid "Run MongoDB"
-msgstr ""
+msgstr "运行MongoDB"
