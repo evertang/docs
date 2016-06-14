@@ -237,7 +237,10 @@ msgid ""
 "typically due to a :term:`network partition`. When this occurs, clients that"
 " connect to the former primary may observe stale data despite having "
 "requested read preference :readmode:`primary`."
-msgstr ""
+msgstr "在某些场景下，一个复制集里面的两个节点可能会短时间的认为他们都是主节点。"
+"但是只有其中一个节点可以接受 :ref:`{w: majority} write concern <wc-w>` 。可以接受:ref:`{w: majority} write concern <wc-w>`写入"
+"的就是真正的主节点。另外一个是原先的主节点，一般由于网络隔断问题还未及时意识到自己已经被降级。"
+"当这个发生时，连接到这个前主节点的客户端可能会看到一些过时的数据，哪怕是读选项使用的是 :readmode:`primary`。"
 
 #: ../source/includes/extracts/additional-resources-replication-introduction.rst:4
 msgid "Additional Resources"
